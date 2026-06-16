@@ -1,30 +1,35 @@
 print("=== K-Drama Recommendation System ===")
 
-drama = input("Enter your favourite drama: ").lower()
+while True:
+    drama = input("Enter your favourite drama: ").lower()
 
-if drama == "true beauty":
-    print("Recommended Drama: My ID is Gangnam Beauty")
+    if drama == "true beauty":
+        print("Recommended Drama: My ID is Gangnam Beauty")
 
-elif drama == "queen of tears":
-    print("Recommended Drama: Crash Landing on You")
+    elif drama == "queen of tears":
+        print("Recommended Drama: Crash Landing on You")
 
-elif drama == "business proposal":
-    print("Recommended Drama: What's Wrong with Secretary Kim")
+    elif drama == "business proposal":
+        print("Recommended Drama: What's Wrong with Secretary Kim")
 
-elif drama == "lovely runner":
-    print("Recommended Drama: Twinkling Watermelon")
+    elif drama == "lovely runner":
+        print("Recommended Drama: Twinkling Watermelon")
 
-elif drama == "crash landing on you":
-    print("Recommended Drama: Descendants of the Sun")
+    elif drama == "crash landing on you":
+        print("Recommended Drama: Descendants of the Sun")
 
-elif drama == "goblin":
-    print("Recommended Drama: Hotel Del Luna")
+    elif drama == "goblin":
+        print("Recommended Drama: Hotel Del Luna")
 
-elif drama == "my demon":
-    print("Recommended Drama: Doom at Your Service")
+    elif drama == "my demon":
+        print("Recommended Drama: Doom at Your Service")
 
-elif drama == "marry my husband":
-    print("Recommended Drama: Perfect Marriage Revenge")
+    elif drama == "marry my husband":
+        print("Recommended Drama: Perfect Marriage Revenge")
 
-else:
-    print("Recommended Drama: Strong Woman Do Bong Soon")
+    elif drama == "exit":
+        print("Thank you for using K-Drama Recommendation System!")
+        break
+
+    else:
+        print("Recommended Drama: Strong Woman Do Bong Soon")
